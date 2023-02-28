@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("./Fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 42px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    color: black;
+    text-align: center;
+}
+
+h2.importantsubtitle {
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.subtitle {
+    text-decoration: underline;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(214, 210, 238);
+}
+
+table {
+    margin: 20px auto;
+}
+
+th {
+    padding: 5px;
+}
+
+td {
+    padding: 5px;
+}
+
+P {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.smalltext {
+    font-size: 14px;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.centered-list {
+    list-style-position: inside;
+    text-align: center;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: rgb(214, 210, 238);
+}
+
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    position: relative;
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li:hover {
+    background-color: #152238;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+nav ul ul {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+nav ul ul li {
+    text-align: left;
+    background-color: black;
+    border-bottom: 1px solid black;
+}
+
+nav ul ul li a {
+    padding: 8px 16px;
+}
+
+nav ul ul ul {
+    left: 100%;
+    top: 0;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    max-height: 600px;
+}
+
+.imagecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagecontainer img {
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main {
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
