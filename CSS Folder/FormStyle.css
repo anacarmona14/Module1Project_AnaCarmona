@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../Fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+main {
+    margin: 0 auto;
+    width: 90%;
+}
+
+p {
+    text-align: center;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 38px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+form {
+    width: 55%;
+    float: left;
+}
+
+form label:not(.exclude) {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.imagecontainer2 {
+    width: 45%;
+    float: right;
+}
+
+.imagecontainer2 img {
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.formtitle {
+    text-align: left;
+}
+
+
+.imagecontainer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagecontainer1 img {
+    width: 35%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.imagecontainer2 img {
+    float: right;
+    margin: 0px 0px 15px 20px;
+}
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    position: relative;
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li:hover {
+    background-color: #152238;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+nav ul ul {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+nav ul ul li {
+    text-align: left;
+    background-color: black;
+    border-bottom: 1px solid black;
+}
+
+nav ul ul li a {
+    padding: 8px 16px;
+}
+
+nav ul ul ul {
+    left: 100%;
+    top: 0;
+}
+
+
+.btncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btntype1 {
+    background-color: #000000;
+    border-radius: 22px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.btntype1 a {
+    color: azure;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btntype1 a:hover {
+    color: #07a0c3;
+}
+
+input[type="submit"] {
+    background-color: #000000;
+    border-radius: 22px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(214, 210, 238);
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

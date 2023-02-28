@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+    <html>
+
+        <head>
+            <title>FlickSight - Contact Us</title>
+            <link href="../CSS Folder\FormStyle.css" rel="stylesheet" type="text/css">
+        </head>
+
+        <body>
+            <header>
+                <nav>
+                    <ul>
+                    <li>
+                        <a href="#">Home</a>
+                        <ul>
+                        <li><a href="../Index.html#welcometoflicksight">Welcome to FlickSight</a></li>
+                        <li><a href="../Index.html#visionandvalues">Vision and Values</a></li>
+                        <li><a href="../Index.html#features">Features</a></li>
+                        <li><a href="../Index.html#oursolution">Our Solution</a></li>
+                        <li><a href="../Index.html#contact">Contact</a></li>
+                        </ul>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#">About Me</a>
+                    </li>
+                    </ul>
+            </nav>
+            </header>
+
+            <main>
+                <h1 class="formtitle">Let's get in touch! - Please fill out the following form</h1>
+                <form action="../HTML Folder\FormCompletion.html" method="POST">
+                    <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required placeholder="Jon Doe">
+
+                    <br></br> 
+
+                    <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="example@email.com">
+
+                    <br></br>
+
+                    <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="+Countrycode_yourphonenumber">
+
+                    <div id="selecyourcountry">
+                        <p>Please note that we're only available in the Americas and select English-speaking countries for now.*</p>
+                        </select>
+                        <label for="yourcountry">Country:</label>
+                        <input type="text" list="yourcountry" id="country" name="country" required placeholder="Colombia">
+                        <datalist id="yourcountry">
+                            <option value="Argentina">
+                            <option value="Australia">
+                            <option value="Bolivia">
+                            <option value="Brazil">
+                            <option value="Canada">
+                            <option value="Chile">
+                            <option value="Colombia">
+                            <option value="Costa Rica">
+                            <option value="Cuba">
+                            <option value="Dominican Republic">
+                            <option value="Ecuador">
+                            <option value="El Salvador">
+                            <option value="Guatemala">
+                            <option value="Haiti">
+                            <option value="Honduras">
+                            <option value="Jamaica">
+                            <option value="Mexico">
+                            <option value="Nicaragua">
+                            <option value="New Zealand">
+                            <option value="Panama">
+                            <option value="Paraguay">
+                            <option value="Peru">
+                            <option value="Puerto Rico">
+                            <option value="United States">
+                            <option value="United Kingdom">
+                            <option value="Uruguay">
+                            <option value="Venezuela">
+                        </datalist>
+                    </div>
+                    <br></br>
+                    <label for="city">City:</label>
+                        <input type="text" id="city" name="city">
+
+                        <br></br>
+
+                    <label>Reason for contacting us:</label>
+                        <label for="option1" class="exclude"><input type="radio" id="option1" name="reason" value="option1">I have a recommendation</label>
+                        <label for="option2" class="exclude"><input type="radio" id="option2" name="reason" value="option2">I have a question</label>
+                        <label for="option3" class="exclude"><input type="radio" id="option3" name="reason" value="option3">I want more information</label>
+
+                        <br></br>
+
+                    <label for="observations">Observations:</label>
+                        <textarea id="observations" name="observations"></textarea>
+
+                <br></br>
+
+                <input type="submit" value="Submit">
+            </form>
+            <div class="imagecontainer2">
+                <img src="../Media\Photos\Checklist.svg">
+            </div>
+            </main>
+        </body>
+    </html>
