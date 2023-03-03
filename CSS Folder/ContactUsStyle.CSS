@@ -1,0 +1,183 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../Fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: radial-gradient(circle, #b597f6 30%, #96c6ea 100%);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: rgb(214, 210, 238);
+}
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    position: relative;
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li:hover {
+    background-color: #152238;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+nav ul ul {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+nav ul ul li {
+    text-align: left;
+    background-color: black;
+    border-bottom: 1px solid black;
+}
+
+nav ul ul li a {
+    padding: 8px 16px;
+}
+
+nav ul ul ul {
+    left: 100%;
+    top: 0;
+}
+
+.contactcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.formbox {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 10px 5px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.formbox span {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 15px;
+    display: block;
+}
+
+textarea #observations {
+    overflow: auto;
+}
+
+.imagecontainer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+
+.imagecontainer2 img {
+    width: 600px;
+    height: auto;
+}
+
+form {
+    color: white;
+    width: 80%;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 3px;
+}
+
+form input[type="submit"] {
+    background-color: white;
+    border-radius: 22px;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+    background-color: lightgray;
+}
+
+footer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+}

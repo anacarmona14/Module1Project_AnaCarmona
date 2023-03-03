@@ -1,0 +1,156 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../Fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: radial-gradient(circle, #b597f6 30%, #96c6ea 100%);
+}
+
+main {
+    margin: 0 auto;
+    width: 90%;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: rgb(214, 210, 238);
+}
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    position: relative;
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li:hover {
+    background-color: #152238;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+nav ul ul {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+nav ul ul li {
+    text-align: left;
+    background-color: black;
+    border-bottom: 1px solid black;
+}
+
+nav ul ul li a {
+    padding: 8px 16px;
+}
+
+nav ul ul ul {
+    left: 100%;
+    top: 0;
+}
+
+.aboutmecontainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 50px;
+    border: 5px solid white;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.aboutmecontainer img {
+    float: right;
+    margin-right: 20px;
+    width: 150px;
+}
+
+.aboutmecontainer p {
+    font-size: 18px;
+    width: 80%;
+    margin-left: 20px;
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+.imagecontainer3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagecontainer3 img {
+    width: 10em;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#contactinfo h2 {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.contactlinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+}
