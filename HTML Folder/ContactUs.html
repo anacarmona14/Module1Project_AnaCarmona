@@ -4,7 +4,7 @@
 
         <head>
             <title>FlickSight - Contact Us</title>
-            <link href="../CSS Folder\FormStyle.css" rel="stylesheet" type="text/css">
+            <link href="../CSS Folder\ContactUsStyle.CSS" rel="stylesheet" type="text/css">
         </head>
 
         <body>
@@ -12,14 +12,15 @@
                 <nav>
                     <ul>
                     <li>
-                        <a href="../Index.html">Home</a>
+                        <a href="../Index.html">Home 🡓</a>
                         <ul>
-                        <li><a href="../Index.html#welcometoflicksight">Welcome to FlickSight</a></li>
-                        <li><a href="../Index.html#visionandvalues">Vision and Values</a></li>
-                        <li><a href="../Index.html#features">Features</a></li>
-                        <li><a href="../Index.html#oursolution">Our Solution</a></li>
-                        <li><a href="../Index.html#contact">Contact</a></li>
+                            <li><a href="../Index.html#welcometoflicksight">Welcome to FlickSight</a></li>
+                            <li><a href="../Index.html#visionandvalues">Vision and Values</a></li>
+                            <li><a href="../Index.html#features">Features</a></li>
+                            <li><a href="../Index.html#oursolution">Our Solution</a></li>
+                            <li><a href="../Index.html#contact">Contact</a></li>
                         </ul>
+                    </li>
                     <li>
                         <a href="../HTML Folder\ContactUs.html">Contact Us</a>
                     </li>
@@ -31,8 +32,10 @@
             </header>
 
             <main>
-                <h1 class="formtitle">Let's get in touch! - Please fill out the following form</h1>
-                <form action="../HTML Folder\FormCompletion.html" method="POST">
+                <div class="contactcontainer">
+                    <div class="formbox">
+                    <span>Let's get in touch! - Please fill out the following form</span>
+                    <form action="../HTML Folder\FormCompletion.html" method="POST">
                     <label for="name">Name:</label>
                         <input type="text" id="name" name="name" required placeholder="Jon Doe">
 
@@ -96,14 +99,19 @@
 
                     <label for="observations">Observations:</label>
                         <textarea id="observations" name="observations"></textarea>
-
-                <br></br>
-
-                <input type="submit" value="Submit">
-            </form>
-            <div class="imagecontainer2">
-                <img src="../Media\Photos\Checklist.svg">
-            </div>
+                    <br></br>
+                    <input type="submit" value="Submit">
+                    </form>
+                    </div>
+                    <div class="imagecontainer2">
+                        <img src="../Media\Photos\filloutform.png">
+                    </div>
+                </div>
             </main>
         </body>
+        
+        <footer>
+            <p>FlickSight, 2023.</p>
+        </footer>
+
     </html>

@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #fff;
+    background: radial-gradient(circle, #b597f6 30%, #96c6ea 100%);
 }
 
 main {
@@ -17,6 +17,7 @@ main {
 }
 
 p {
+    font-size: 18px;
     text-align: center;
     text-decoration: none;
 }
@@ -29,52 +30,6 @@ h1 {
     margin-bottom: 40px;
 }
 
-
-form {
-    width: 55%;
-    float: left;
-}
-
-form label:not(.exclude) {
-    text-decoration: underline;
-    text-underline-position: under;
-}
-
-.imagecontainer2 {
-    width: 45%;
-    float: right;
-}
-
-.imagecontainer2 img {
-    width: 70%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 0px;
-    margin-right: 10px;
-}
-
-.formtitle {
-    text-align: left;
-}
-
-
-.imagecontainer1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.imagecontainer1 img {
-    width: 35%;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
-
-.imagecontainer2 img {
-    float: right;
-    margin: 0px 0px 15px 20px;
-}
 
 nav {
     background-color: black;
@@ -133,6 +88,25 @@ nav ul ul ul {
 }
 
 
+.imagecontainer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagecontainer1 img {
+    width: 35%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.imagecontainer2 img {
+    float: right;
+    margin: 0px 0px 15px 20px;
+}
+
+
 .btncontainer {
     display: flex;
     justify-content: center;
@@ -143,6 +117,7 @@ nav ul ul ul {
     background-color: #000000;
     border-radius: 22px;
     color: white;
+    cursor: pointer;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -156,34 +131,20 @@ nav ul ul ul {
     font-weight: bold;
 }
 
-.btntype1 a:hover {
-    color: #07a0c3;
+.btntype1:hover {
+    background-color: white;
 }
 
-input[type="submit"] {
-    background-color: #000000;
-    border-radius: 22px;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 5px;
-    cursor: pointer;
-}
-
-a {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a:hover {
-    color: rgb(214, 210, 238);
+.btntype1:hover a {
+    color: black
 }
 
 footer {
-    text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
 }
